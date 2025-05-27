@@ -1,5 +1,5 @@
 {
-  "name": "@aura/etherscan-mcp",
+  "name": "@aurracloud/etherscan-mcp",
   "version": "1.0.0",
   "description": "Model Context Protocol (MCP) server for Etherscan API integration. Provides tools for querying Ethereum blockchain data including balances, transactions, contracts, and token information.",
   "main": "dist/lib.js",
@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aura/etherscan-mcp.git"
+    "url": "https://github.com/aurracloud/etherscan-mcp.git"
   },
-  "homepage": "https://github.com/aura/etherscan-mcp#readme",
+  "homepage": "https://github.com/aurracloud/etherscan-mcp#readme",
   "bugs": {
-    "url": "https://github.com/aura/etherscan-mcp/issues"
+    "url": "https://github.com/aurracloud/etherscan-mcp/issues"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -50,7 +50,7 @@
     "connection": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@aura/etherscan-mcp"],
+      "args": ["-y", "@aurracloud/etherscan-mcp"],
       "timeout": 30000
     },
     "config": {
