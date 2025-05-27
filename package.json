@@ -1,6 +1,6 @@
 {
   "name": "@aurracloud/etherscan-mcp",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Model Context Protocol (MCP) server for Etherscan API integration. Provides tools for querying Ethereum blockchain data including balances, transactions, contracts, and token information.",
   "type": "module",
   "main": "dist/lib.js",
