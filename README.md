@@ -38,7 +38,10 @@ Add to your Claude Desktop configuration:
   "mcpServers": {
     "etherscan": {
       "command": "npx",
-      "args": ["-y", "@aura/etherscan-mcp"]
+      "args": ["-y", "@aurracloud/etherscan-mcp"],
+      "env": {
+        "ETHERSCAN_API_KEY": "ETHERSCAN_API_KEY_GOES_HERE"
+      }
     }
   }
 }
